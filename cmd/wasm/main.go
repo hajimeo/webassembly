@@ -4,7 +4,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"syscall/js" // Ignoreable
+	"syscall/js" // Ignorable
 )
 
 func prettyJson(input string) (string, error) {
